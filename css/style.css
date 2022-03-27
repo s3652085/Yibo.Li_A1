@@ -1,0 +1,129 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Segoe UI", Arial;
+
+}
+
+body, html{
+    background-color: #eee;
+}
+
+.width{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding:20px;
+}
+
+.afleft > *{
+    float:left;
+}
+
+.clear:after{
+    clear: both;
+    display: block;
+    content: '';
+
+}
+
+.pb-60{margin-bottom: 60px;}
+.pb-20{margin-bottom: 20px;}
+.block p{margin: 8px 0;}
+.link{text-decoration: underline; color: #0a7abf;}
+h2{font-size: 30px; margin-bottom: 10px;}
+
+.logo{
+    margin-bottom: 40px;
+	text-align: center;
+}
+
+.nav-bar{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.nav-bar a{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #A4A4A4;
+    color: black;
+    display: block;
+
+}
+
+.nav-bar a:hover{
+    background: #0a7abf;
+    color: #fff;
+}
+
+.nav-bar li{
+    margin-right: 20px;
+}
+
+.menu, .menu li{
+    list-style: circle inside;
+}
+.error{
+    color: #c74551;
+    display: none;
+}
+
+.input{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    min-width: 50%;
+}
+
+.flex{
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.col-6{
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: content-box;
+}
+.w-100{
+    width: 100%;
+    display: block;
+}
+
+.btn{
+    background-color: #e1802a;
+    color: #fff;
+    border: 1px solid #d07129;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+header{
+    box-shadow: 0 3px 20px #ccc;
+    background-color: #fff;
+}
+
+.main{
+    padding: 40px 0;
+    min-height: 75vh;
+}
+
+.form-group{
+    margin-bottom: 40px;
+}
+
+.footer{
+    background-color: #333;
+    color: #fff;
+    font-weight:bold;
+}
